@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'DancingScript';
+  src: url('../fonts/DancingScript-Regular.ttf');
+  src: url('../fonts/DancingScript-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:active, a:hover, a:focus{
+  text-decoration: none;
+}
+
+.container{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  clear: both;
+}
