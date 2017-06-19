@@ -5,7 +5,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 *{
   margin: 0;
   padding: 0;
@@ -17,15 +16,32 @@
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 a:link, a:visited, a:active, a:hover, a:focus{
   text-decoration: none;
+  color: white;
 }
-
-.container{
+body{
+   font-family: 'DancingScript';
+   background-color: #02010a;
+   color: white;
+}
+#container{
   position: relative;
   margin: auto;
   width: 100%;
   height: auto;
   clear: both;
+  text-align: center
+}
+
+#container img{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#container .imagen-principal{
+  width: 95%;
+  height: auto;
 }
