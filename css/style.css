@@ -18,12 +18,13 @@
 }
 a:link, a:visited, a:active, a:hover, a:focus{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 body{
    font-family: 'DancingScript';
    background-color: #02010a;
    color: white;
+   margin-bottom: 0;
 }
 #container{
   position: relative;
@@ -33,6 +34,7 @@ body{
   clear: both;
   text-align: center;
   animation: 2s slide-up 1;
+  z-index: 0;
 }
 
 #cabecera{
@@ -57,6 +59,7 @@ body{
 #menu ul li a{
   font-size: 1.2em;
   font-weight: bold;
+  color: white;
 }
 
 #menu ul li a:hover{
@@ -84,20 +87,49 @@ body{
 #seccion-secundaria{
   background-color: #d5c75f;
   padding: 10px 0 10px 0;
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
 }
 
 #seccion-secundaria img{
   border: 1px solid black;
 }
 
-#seccion-secundaria p{
-  font-size: 1em;
-  color: black;
-}
-
 #seccion-secundaria .paisajes,
 #seccion-secundaria .retratos{
   padding: 10px 0 10px 0;
+}
+
+#footer{
+  padding-top: 40px;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  font-size: 1.2em;
+  color: black;
+}
+
+#contact, #terminos, #social, #copyright{
+  margin: 30px auto;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+#social ul li i {
+  font-size: 1.6em;
+}
+
+.fa-facebook-square{
+  color: #2F5590;
+}
+
+.fa-twitter-square{
+  color: #53A0F1;
+}
+
+.fa-github-square{
+  color: #53277D;
 }
 
 /*===========================================/
