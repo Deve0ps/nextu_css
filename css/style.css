@@ -29,7 +29,7 @@ body{
 #container{
   position: relative;
   margin: 5px auto;
-  width: 96%;
+  width: 100%;
   height: auto;
   clear: both;
   text-align: center;
@@ -130,6 +130,15 @@ body{
 
 .fa-github-square{
   color: #53277D;
+}
+
+#paisajes a img:hover{
+  -webkit-transform: rotateX(10deg);
+  -moz-transform: rotateX(10deg);
+  -ms-transform: rotateX(10deg);
+  -o-transform: rotateX(10deg);
+  transform: rotateX(10deg);
+  width: 50%;
 }
 
 /*===========================================/
