@@ -132,14 +132,6 @@ body{
   color: #53277D;
 }
 
-#paisajes a img:hover{
-  -webkit-transform: rotateX(10deg);
-  -moz-transform: rotateX(10deg);
-  -ms-transform: rotateX(10deg);
-  -o-transform: rotateX(10deg);
-  transform: rotateX(10deg);
-  width: 50%;
-}
 
 /*===========================================/
                                             Keyframes
